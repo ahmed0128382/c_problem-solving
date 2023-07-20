@@ -17,7 +17,7 @@ int main(void)
 	}
 	else
 	{
-		if(Bacteria_Wanted%2 <= Bacteria_Wanted%3)
+		if(Bacteria_Wanted%2 < Bacteria_Wanted%3)
 	    {
 	    	chosen_first_put=1;
 			Bacteria_Put=1;
